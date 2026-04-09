@@ -32,6 +32,9 @@ blibli-integration/
 
 ## ⚙️ Setup & Installation
 
+**Repository:**
+https://github.com/jr-repository/blibli-integration.git
+
 **1. Clone the repository:**
 ```bash
 git clone https://github.com/jr-repository/blibli-integration.git
