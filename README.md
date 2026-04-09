@@ -6,11 +6,11 @@ This template is built with security in mind, ensuring no credentials are hardco
 
 ---
 
-## 🚀 Current Integration Step
+## Current Integration Step
 
 * **Phase 1 Completed:** API Client Initialization, Authentication/Signature Generation, and "Hit List Product" (Fetch Products) endpoint testing.
 
-## 📂 Project Architecture
+## Project Architecture
 
 ```text
 blibli-integration/
@@ -30,9 +30,9 @@ blibli-integration/
 └── README.md                    # Documentation
 ```
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
-**Repository:**
+**Repository :**
 https://github.com/jr-repository/blibli-integration.git
 
 **1. Clone the repository:**
@@ -58,7 +58,7 @@ cp .env.example .env
 go run cmd/api/main.go
 ```
 
-## 🛠️ Development Guidelines
+## Development Guidelines
 
 * **Payloads:** Add new API payloads in `internal/models/`.
 * **Endpoints:** Implement new endpoint logic in `internal/blibli/` by extending the `Client` struct.
@@ -66,7 +66,7 @@ go run cmd/api/main.go
 
 ---
 
-## 📦 Dependencies (`go.mod`)
+## Dependencies (`go.mod`)
 
 *(Reference for your `go.mod` file)*
 
