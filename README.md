@@ -34,7 +34,7 @@ blibli-integration/
 
 **1. Clone the repository:**
 ```bash
-git clone [https://github.com/jr-repository/blibli-integration.git](https://github.com/jr-repository/blibli-integration.git)
+git clone https://github.com/jr-repository/blibli-integration.git
 cd blibli-integration
 ```
 
@@ -68,9 +68,9 @@ go run cmd/api/main.go
 *(Reference for your `go.mod` file)*
 
 ```go
-module [github.com/jr-repository/blibli-integration](https://github.com/jr-repository/blibli-integration)
+module github.com/jr-repository/blibli-integration
 
 go 1.21
 
-require [github.com/joho/godotenv](https://github.com/joho/godotenv) v1.5.1
+require github.com/joho/godotenv v1.5.1
 ```
