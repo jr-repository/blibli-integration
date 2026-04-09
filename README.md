@@ -4,10 +4,13 @@ A professional, production-ready Go template for integrating with the Blibli Sel
 
 This template is built with security in mind, ensuring no credentials are hardcoded. It is designed to be easily extensible for other Blibli API endpoints.
 
-## Current Integration Step
-**Phase 1 Completed:** API Client Initialization, Authentication/Signature Generation, and "Hit List Product" (Fetch Products) endpoint testing.
+---
 
-## Project Architecture
+## 🚀 Current Integration Step
+
+* **Phase 1 Completed:** API Client Initialization, Authentication/Signature Generation, and "Hit List Product" (Fetch Products) endpoint testing.
+
+## 📂 Project Architecture
 
 ```text
 blibli-integration/
@@ -25,42 +28,49 @@ blibli-integration/
 ├── .env.example                 # Template for environment variables
 ├── go.mod                       # Go module dependencies
 └── README.md                    # Documentation
-Setup & Installation
-Clone the repository:
+```
 
-Bash
+## ⚙️ Setup & Installation
+
+**1. Clone the repository:**
+```bash
 git clone [https://github.com/bytecorner/blibli-integration.git](https://github.com/bytecorner/blibli-integration.git)
 cd blibli-integration
-Install dependencies:
+```
 
-Bash
+**2. Install dependencies:**
+```bash
 go mod tidy
-Configure Environment:
+```
+
+**3. Configure Environment:**
 Copy the example environment file and fill in your actual Blibli Seller credentials.
-
-Bash
+```bash
 cp .env.example .env
-Note: Never commit your .env file to version control.
+```
+> **Note:** Never commit your `.env` file to version control.
 
-Run the application:
-
-Bash
+**4. Run the application:**
+```bash
 go run cmd/api/main.go
-Development Guidelines
-Add new API payloads in internal/models/.
+```
 
-Implement new endpoint logic in internal/blibli/ by extending the Client struct.
+## 🛠️ Development Guidelines
 
-Maintain clean error handling and avoid hardcoding paths.
-
+* **Payloads:** Add new API payloads in `internal/models/`.
+* **Endpoints:** Implement new endpoint logic in `internal/blibli/` by extending the `Client` struct.
+* **Best Practices:** Maintain clean error handling and avoid hardcoding paths.
 
 ---
 
-### `go.mod`
+## 📦 Dependencies (`go.mod`)
+
+*(Reference for your `go.mod` file)*
 
 ```go
-module github.com/bytecorner/blibli-integration
+module [github.com/bytecorner/blibli-integration](https://github.com/bytecorner/blibli-integration)
 
 go 1.21
 
-require github.com/joho/godotenv v1.5.1
+require [github.com/joho/godotenv](https://github.com/joho/godotenv) v1.5.1
+```
